@@ -11,7 +11,6 @@ Claude Code, GitHub Copilot, Cursor, Gemini CLI, and others.
 
 | Skill | What it does |
 |---|---|
-| [`career-init`](./career-init/SKILL.md) | First-time setup — creates config and vault directory structure |
 | [`perf-goals`](./perf-goals/SKILL.md) | Create and manage yearly performance goals |
 | [`work-log`](./work-log/SKILL.md) | Capture daily work notes linked to goals |
 | [`brag-doc`](./brag-doc/SKILL.md) | Generate an accomplishment summary from work logs |
