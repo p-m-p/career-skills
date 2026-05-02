@@ -26,8 +26,9 @@ use the `career-init` skill to set it up before proceeding.
 1. **Establish the period** — ask if not already clear: Q1/Q2/Q3/Q4, H1/H2,
    full year, or a custom date range.
 
-2. **Read the goals file** — load `{vault}/goals/YYYY.md` to understand goal
-   titles and structure.
+2. **Read the goals** — load the index at `{vault}/goals/YYYY.md` and read
+   each individual goal file from `{vault}/goals/YYYY/` to understand titles
+   and structure.
 
 3. **Read the log files** — read all daily logs in `{vault}/logs/` within the
    period, in date order.

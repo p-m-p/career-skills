@@ -13,8 +13,9 @@ compatibility: Requires a writable filesystem. Output is Markdown, compatible wi
 ## Overview
 
 Work logs are stored in `{vault}/logs/YYYY-MM-DD.md`, one file per day. Each
-entry is a timestamped block linked to one or more goals. These logs feed into
-the `brag-doc` skill when it is time to write a performance summary.
+entry is a timestamped block linked to one or more goals via relative Markdown
+links. These logs feed into the `brag-doc` skill when it is time to write a
+performance summary.
 
 ## Configuration
 
@@ -27,8 +28,8 @@ use the `career-init` skill to set it up before proceeding.
 
 2. **Capture the work** — ask for or infer from the user's message:
    - What was done
-   - Which goal(s) it relates to — reference titles from `{vault}/goals/YYYY.md`
-     if the file exists; otherwise ask or use a placeholder
+   - Which goal(s) it relates to — read goal files from `{vault}/goals/YYYY/`
+     to find the correct filenames; otherwise use a placeholder
    - Type of work: `delivery` | `learning` | `visibility` | `collaboration`
    - Any outcome or impact worth noting (optional but valuable for brag-doc)
 
@@ -40,6 +41,16 @@ use the `career-init` skill to set it up before proceeding.
    impact alongside the action — even a rough result ("unblocked the team",
    "reduced errors by half") makes STAR reconstruction much easier later.
 
+## Goal links
+
+Link goals using relative Markdown links from the log file to the goal file.
+A log at `{vault}/logs/YYYY-MM-DD.md` links to a goal at
+`{vault}/goals/YYYY/goal-slug.md` using:
+
+```markdown
+[Goal Title](../goals/YYYY/goal-slug.md)
+```
+
 ## Log file template
 
 ```markdown
@@ -50,14 +61,14 @@ date: YYYY-MM-DD
 # Work Log — Weekday, Month DD YYYY
 
 ## HH:MM — [Brief Title]
-**Goals:** [Goal title 1], [Goal title 2]
+**Goals:** [Goal Title](../goals/YYYY/goal-slug.md)
 **Type:** delivery
 [Description of what was done and any notable outcome or impact.]
 
 ---
 
 ## HH:MM — [Brief Title]
-**Goals:** [Goal title]
+**Goals:** [Goal Title](../goals/YYYY/goal-slug.md), [Another Goal](../goals/YYYY/another-goal.md)
 **Type:** visibility
 [Description.]
 
@@ -71,9 +82,8 @@ block with its own heading. Use approximate times if exact times are not given.
 
 ## Gotchas
 
-- If the goals file does not exist, still create the log entry. Use a
-  placeholder goal name and suggest the user run `perf-goals` to set up their
-  goals file.
+- If the goals directory does not exist, still create the log entry. Use a
+  placeholder goal name and suggest the user set up their goals with `perf-goals`.
 - For visibility or collaboration entries, prompt the user to note who was
   involved and which team or stakeholder was impacted. This detail is hard to
   reconstruct later and is valuable in a brag doc.

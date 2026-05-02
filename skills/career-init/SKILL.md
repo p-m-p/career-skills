@@ -38,6 +38,9 @@ vault = "/path/chosen/by/user"
   goals/
   logs/
   brag/
+  reviews/
+  one-on-ones/
+  promo/
 ```
 
 5. **Confirm** — tell the user setup is complete and which skills are available

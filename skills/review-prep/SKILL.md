@@ -31,8 +31,9 @@ use the `career-init` skill to set it up before proceeding.
    - Any specific questions or sections in the company's review form
    - The user's target rating or level claim, if they have one
 
-2. **Read the goals file** — load `{vault}/goals/YYYY.md` to understand
-   what the user committed to at the start of the year.
+2. **Read the goals** — load the index at `{vault}/goals/YYYY.md` and read
+   each individual goal file from `{vault}/goals/YYYY/` to understand what
+   the user committed to at the start of the year.
 
 3. **Read or generate the brag doc** — if `{vault}/brag/` contains a document
    for this period, use it as the source material. If not, read the log files

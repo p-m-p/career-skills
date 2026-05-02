@@ -13,14 +13,16 @@ compatibility: Requires a writable filesystem. Output is Markdown, compatible wi
 
 ## Overview
 
-This skill creates and maintains a yearly performance goals document. Goals are
-structured across two tracks:
+This skill creates and maintains yearly performance goals. Goals are structured
+across two tracks:
 
 - **Core role goals** — deliverables and outcomes expected of your role
 - **Growth & visibility goals** — scope expansion, new skills, and cross-functional
   work that increases your profile beyond your immediate responsibilities
 
-Goals are stored at `{vault}/goals/YYYY.md`.
+Each goal is stored as its own file at `{vault}/goals/YYYY/goal-slug.md` where
+the slug is the kebab-case of the goal title. An index file at
+`{vault}/goals/YYYY.md` links to all goals for the year.
 
 ## Configuration
 
@@ -52,22 +54,51 @@ use the `career-init` skill to set it up before proceeding.
 
 4. **Confirm with the user** before writing anything to disk.
 
-5. **Write the file** — create `{vault}/goals/YYYY.md` using the template below.
+5. **Write the files** — for each goal, create `{vault}/goals/YYYY/goal-slug.md`
+   using the individual goal template below. Then create or update the index
+   at `{vault}/goals/YYYY.md`.
 
 ## Updating goals
 
-1. Read the existing goals file.
+1. Read the relevant goal file from `{vault}/goals/YYYY/`.
 2. Make the requested change.
 3. Update the `updated` field in the frontmatter.
 4. Show the diff to the user before writing.
 
 ## Checking progress
 
-1. Read `{vault}/goals/YYYY.md` and summarise the status of each goal.
+1. Read the index at `{vault}/goals/YYYY.md` and load each linked goal file.
 2. Note which goals have no recent log activity (reference `{vault}/logs/`).
 3. Suggest goals that may need attention or a status update.
 
-## Goals file template
+## Individual goal file template
+
+```markdown
+---
+year: YYYY
+track: core-role
+status: Not started
+updated: YYYY-MM-DD
+---
+
+# [Goal Title]
+
+**Objective:** [One or two sentences describing the desired outcome.]
+
+**Success criteria:**
+- [Measurable outcome 1]
+- [Measurable outcome 2]
+
+**Business alignment:** [Which company or team priority this supports]
+```
+
+For growth & visibility goals, add:
+
+```markdown
+**Why this matters for growth:** [What skill, scope, or relationship this builds]
+```
+
+## Index file template
 
 ```markdown
 ---
@@ -80,26 +111,11 @@ updated: YYYY-MM-DD
 
 ## Core Role Goals
 
-### [Goal Title]
-**Objective:** [One or two sentences describing the desired outcome.]
-**Success criteria:**
-- [Measurable outcome 1]
-- [Measurable outcome 2]
-**Business alignment:** [Which company or team priority this supports]
-**Status:** Not started
-
----
+- [Goal Title](YYYY/goal-slug.md)
 
 ## Growth & Visibility Goals
 
-### [Goal Title]
-**Objective:** [One or two sentences.]
-**Success criteria:**
-- [Measurable outcome]
-**Why this matters for growth:** [What skill, scope, or relationship this builds]
-**Status:** Not started
-
----
+- [Goal Title](YYYY/goal-slug.md)
 
 ## Notes
 

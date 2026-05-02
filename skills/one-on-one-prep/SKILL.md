@@ -30,8 +30,9 @@ use the `career-init` skill to set it up before proceeding.
 
 2. **Read recent logs** — scan `{vault}/logs/` for entries within the period.
 
-3. **Read the goals file** — load `{vault}/goals/YYYY.md` to check goal status
-   and surface any goals that are at risk or stalled.
+3. **Read the goals** — load the index at `{vault}/goals/YYYY.md` and read
+   individual goal files from `{vault}/goals/YYYY/` to check status and surface
+   any that are at risk or stalled.
 
 4. **Build the agenda** — group talking points into:
    - **Wins** — completed work and progress worth highlighting

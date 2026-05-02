@@ -35,8 +35,10 @@ use the `career-init` skill to set it up before proceeding.
    If none is available, ask the user to describe what "next level" looks like
    in their company and use that as a framework.
 
-2. **Read the brag doc or logs** — load the most recent brag document from
-   `{vault}/brag/`, or read logs directly if no brag doc exists.
+2. **Read the goals and brag doc** — load the index at `{vault}/goals/YYYY.md`
+   and individual goal files from `{vault}/goals/YYYY/`. Then load the most
+   recent brag document from `{vault}/brag/`, or read logs directly if no
+   brag doc exists.
 
 3. **Map accomplishments to criteria** — for each criterion at the target level:
    - Find the strongest evidence from logs or brag doc
