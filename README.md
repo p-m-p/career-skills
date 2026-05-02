@@ -54,23 +54,3 @@ Add this repository as a plugin marketplace, then install:
 ```
 
 
-## Vault structure
-
-Your vault will look like this once you've used the skills for a while:
-
-```
-your-vault/
-  goals/
-    2025.md          # yearly performance goals
-  logs/
-    2025-01-15.md    # daily work logs
-    2025-01-16.md
-  brag/
-    2025-H1.md       # half-year accomplishment summaries
-  reviews/
-    2025.md          # self-assessments
-  one-on-ones/
-    2025-01-20.md    # 1-on-1 agendas
-  promo/
-    2025.md          # promotion cases
-```
