@@ -32,7 +32,7 @@ Add this repository as a plugin marketplace, then install:
 
 ```
 /plugin marketplace add p-m-p/career-skills
-/plugin install career-skills@career-skills
+/plugin install career-skills@p-m-p
 ```
 
 ## How it works
