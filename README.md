@@ -21,21 +21,21 @@ Claude Code, GitHub Copilot, Cursor, Gemini CLI, and others.
 
 ## Getting started
 
-Run `career-init` first. It creates a config file at `~/.career-skills.toml`
-with the path to your vault (the folder where all your career files are stored),
-then sets up the directory structure. All other skills read this config.
+Once installed, just talk to your agent naturally. The skills activate
+automatically when relevant:
 
-A typical workflow:
+> "I want to set up my performance goals for this year"
 
-1. **`career-init`** — set up once
-2. **`perf-goals`** — set your goals at the start of the year
-3. **`work-log`** — log work as you go, linked to goals
-4. **`brag-doc`** — generate a summary at the end of each quarter or half-year
-5. **`review-prep`** / **`promo-case`** — prepare for reviews and promotion cycles
-6. **`one-on-one-prep`** — before each manager 1-on-1
+> "Log that I finished the API refactor today — it unblocked the mobile team"
 
-All output is plain Markdown, stored in your vault. It works with
-[Obsidian](https://obsidian.md), VS Code, or any text editor.
+> "Write up my accomplishments for H1"
+
+> "I've got a 1-on-1 with my manager tomorrow, help me prep"
+
+On first use, the agent will ask where you want to store your career files and
+set everything up from there. All output is plain Markdown, stored in a vault
+folder of your choosing — compatible with [Obsidian](https://obsidian.md),
+VS Code, or any text editor.
 
 ## Installation
 
@@ -93,7 +93,7 @@ installation instructions for Cursor, Gemini CLI, OpenCode, and others.
 
 ## Vault structure
 
-After running `career-init`, your vault will look like this:
+Your vault will look like this once you've used the skills for a while:
 
 ```
 your-vault/
