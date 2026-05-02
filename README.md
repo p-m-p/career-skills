@@ -18,6 +18,23 @@ Claude Code, GitHub Copilot, Cursor, Gemini CLI, and others.
 | [`one-on-one-prep`](./one-on-one-prep/SKILL.md) | Generate talking points for a manager 1-on-1 |
 | [`promo-case`](./promo-case/SKILL.md) | Build a promotion case mapped to a leveling rubric |
 
+## Installation
+
+### Any Agent Skills compatible agent
+
+```bash
+npx skills add p-m-p/career-skills
+```
+
+### Claude Code
+
+Add this repository as a plugin marketplace, then install:
+
+```
+/plugin marketplace add p-m-p/career-skills
+/plugin install career-skills@p-m-p-career-skills
+```
+
 ## How it works
 
 The skills follow a simple cycle: set goals at the start of the year, log work
@@ -102,20 +119,3 @@ cycle.
 
 All output is plain Markdown stored in a vault folder of your choosing —
 works great with [Obsidian](https://obsidian.md).
-
-## Installation
-
-### Any Agent Skills compatible agent
-
-```bash
-npx skills add p-m-p/career-skills
-```
-
-### Claude Code
-
-Add this repository as a plugin marketplace, then install:
-
-```
-/plugin marketplace add p-m-p/career-skills
-/plugin install career-skills@p-m-p-career-skills
-```
