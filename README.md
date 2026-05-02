@@ -49,7 +49,7 @@ npx skills add p-m-p/career-skills
 Install a single skill:
 
 ```bash
-npx skills add p-m-p/career-skills/tree/main/career-init
+npx skills add p-m-p/career-skills/tree/main/work-log
 ```
 
 ### Claude Code
