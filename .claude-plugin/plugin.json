@@ -1,0 +1,9 @@
+{
+  "name": "career-skills",
+  "description": "Skills for managing performance goals, tracking daily work, and building career documents like brag docs, self-assessments, and promotion cases.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Phil Parsons"
+  },
+  "homepage": "https://github.com/p-m-p/career-skills"
+}

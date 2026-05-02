@@ -38,52 +38,26 @@ VS Code, or any text editor.
 
 ## Installation
 
-### Using the skills CLI
-
-Install all skills at once:
+### Any Agent Skills compatible agent
 
 ```bash
 npx skills add p-m-p/career-skills
 ```
 
-Install a single skill:
-
-```bash
-npx skills add p-m-p/career-skills/tree/main/work-log
-```
-
 ### Claude Code
 
-Copy the skill directories to your personal skills folder:
+Add this repository as a plugin marketplace, then install:
 
-```bash
-git clone https://github.com/p-m-p/career-skills.git
-cp -r career-skills/career-init career-skills/perf-goals career-skills/work-log \
-      career-skills/brag-doc career-skills/review-prep career-skills/one-on-one-prep \
-      career-skills/promo-case ~/.claude/skills/
 ```
-
-Skills in `~/.claude/skills/` are available across all your projects. Claude
-activates them automatically when relevant, or you can invoke any skill directly
-with `/skill-name` (e.g. `/work-log`).
-
-### VS Code (GitHub Copilot)
-
-Copy the skill directories into your project's `.agents/skills/` folder:
-
-```bash
-git clone https://github.com/p-m-p/career-skills.git
-mkdir -p .agents/skills
-cp -r career-skills/career-init career-skills/perf-goals career-skills/work-log \
-      career-skills/brag-doc career-skills/review-prep career-skills/one-on-one-prep \
-      career-skills/promo-case .agents/skills/
+/plugin marketplace add p-m-p/career-skills
+/plugin install career-skills@p-m-p-career-skills
 ```
 
 ### Claude.ai
 
 1. Download this repository as a zip file
 2. Go to **Settings > Features** in Claude.ai
-3. Upload each skill directory as a zip file
+3. Upload the zip file
 
 ### Other agents
 
