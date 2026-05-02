@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "career-skills",
-      "source": ".",
+      "source": "./",
       "description": "Skills for managing performance goals, tracking daily work, and building career documents like brag docs, self-assessments, and promotion cases."
     }
   ]
