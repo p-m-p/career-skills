@@ -1,0 +1,13 @@
+{
+  "name": "career-skills",
+  "owner": {
+    "name": "Phil Parsons"
+  },
+  "plugins": [
+    {
+      "name": "career-skills",
+      "source": ".",
+      "description": "Skills for managing performance goals, tracking daily work, and building career documents like brag docs, self-assessments, and promotion cases."
+    }
+  ]
+}
