@@ -82,6 +82,10 @@ period: [last 7 days / since YYYY-MM-DD]
   worked on before generating the agenda — a thin agenda reads as a slow week.
 - The "Asks" section is the most important for career growth. Prompt the user
   to think about what they need from their manager, not just what to report.
+- When framing blockers or sensitive topics, use SBI as a soft guide (Situation,
+  Behaviour, Impact): what happened, what was observed, and why it matters. This
+  keeps feedback concrete and non-personal without requiring the user to follow
+  a rigid script.
 - Visibility work (cross-functional meetings, stakeholder interactions) often
   gets forgotten in 1-on-1s. Check for entries tagged `visibility` or
   `collaboration` in the logs and include them in Wins.

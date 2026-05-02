@@ -33,7 +33,10 @@ use the `career-init` skill to set it up before proceeding.
    period, in date order.
 
 4. **Synthesise** — for each goal, collect all linked log entries and reframe
-   them as accomplishments:
+   them as accomplishments using STAR as a guiding lens (Situation, Action,
+   Result): what was the context or challenge, what did the user do, and what
+   was the outcome? Not every bullet needs all three elements, but the Result
+   should always be present:
    - Lead with impact, not activity ("Reduced deploy time by 40%" not "Worked
      on the deployment pipeline")
    - Quantify where the logs include numbers; where they do not, ask the user

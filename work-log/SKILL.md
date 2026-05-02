@@ -36,7 +36,9 @@ use the `career-init` skill to set it up before proceeding.
    a date header if it does not exist yet.
 
 4. Keep entries factual and brief. Capture what happened now; synthesis happens
-   later in `brag-doc`.
+   later in `brag-doc`. Where possible, nudge the user to note the outcome or
+   impact alongside the action — even a rough result ("unblocked the team",
+   "reduced errors by half") makes STAR reconstruction much easier later.
 
 ## Log file template
 

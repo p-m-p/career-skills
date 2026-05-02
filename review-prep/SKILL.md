@@ -39,7 +39,10 @@ use the `career-init` skill to set it up before proceeding.
    directly from `{vault}/logs/` and synthesise accomplishments inline.
 
 4. **Draft the self-assessment** — write in first person, professional tone.
-   For each goal:
+   Use STAR (Situation, Action, Result) as the underlying structure for each
+   accomplishment: what was the context or challenge, what did you do, and what
+   was the outcome? Apply it with judgment — not every sentence needs all three
+   elements, but every claim needs a result. For each goal:
    - State whether it was met, exceeded, or partially met
    - Cite specific evidence from logs or the brag doc
    - Quantify impact where possible

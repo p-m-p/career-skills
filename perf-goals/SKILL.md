@@ -39,7 +39,11 @@ use the `career-init` skill to set it up before proceeding.
    - Any goals already discussed with their manager
 
 3. **Draft goals** — produce a set of core goals and at least one growth or
-   visibility goal. For each goal, define:
+   visibility goal. Use OKR thinking as a guide: each goal has a qualitative
+   Objective (what you want to achieve and why it matters) and measurable Key
+   Results (how you'll know you got there). Apply this with judgment — not every
+   company uses OKR language, but the underlying structure (intention + evidence
+   of success) is universally useful. For each goal, define:
    - A clear, outcome-focused title
    - A 1–2 sentence objective
    - 2–3 measurable success criteria
