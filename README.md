@@ -53,16 +53,6 @@ Add this repository as a plugin marketplace, then install:
 /plugin install career-skills@p-m-p-career-skills
 ```
 
-### Claude.ai
-
-1. Download this repository as a zip file
-2. Go to **Settings > Features** in Claude.ai
-3. Upload the zip file
-
-### Other agents
-
-See the [Agent Skills client list](https://agentskills.io/clients) for
-installation instructions for Cursor, Gemini CLI, OpenCode, and others.
 
 ## Vault structure
 
