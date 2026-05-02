@@ -32,9 +32,8 @@ automatically when relevant:
 > "I've got a 1-on-1 with my manager tomorrow, help me prep"
 
 On first use, the agent will ask where you want to store your career files and
-set everything up from there. All output is plain Markdown, stored in a vault
-folder of your choosing — compatible with [Obsidian](https://obsidian.md),
-VS Code, or any text editor.
+set everything up from there. All output is plain Markdown — works great with
+[Obsidian](https://obsidian.md).
 
 ## Installation
 
