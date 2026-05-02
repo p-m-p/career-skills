@@ -18,15 +18,8 @@ the `brag-doc` skill when it is time to write a performance summary.
 
 ## Configuration
 
-Read vault location from `~/.career-skills.toml`:
-
-```toml
-vault = "/path/to/your/career/folder"
-```
-
-If this file does not exist, ask the user where they want to store their career
-files, create `~/.career-skills.toml` with their answer, then create the vault
-directory before proceeding.
+Read vault location from `~/.career-skills.toml`. If this file does not exist,
+use the `career-init` skill to set it up before proceeding.
 
 ## Logging an entry
 

@@ -18,14 +18,8 @@ goal. It is not a diary — it should read like evidence. Output is stored at
 
 ## Configuration
 
-Read vault location from `~/.career-skills.toml`:
-
-```toml
-vault = "/path/to/your/career/folder"
-```
-
-If this file does not exist, ask the user where their career files are stored
-before proceeding.
+Read vault location from `~/.career-skills.toml`. If this file does not exist,
+use the `career-init` skill to set it up before proceeding.
 
 ## Generating a brag doc
 
