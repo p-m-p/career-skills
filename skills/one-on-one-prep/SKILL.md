@@ -20,12 +20,11 @@ Output is stored at `{vault}/one-on-ones/YYYY-MM-DD.md`.
 
 ## Configuration
 
-Read vault location from `~/.career-skills.toml`. If this file does not exist:
-1. Ask the user where they want to store their career files (suggest `~/career`
-   on Mac/Linux or `C:\Users\<name>\Documents\career` on Windows)
-2. Write `~/.career-skills.toml` with their chosen path
-3. Create `{vault}/one-on-ones/` if it does not exist
-4. Then proceed
+1. Read vault location from `~/.career-skills.toml`. If the file does not
+   exist, ask the user where they want to store their career files (suggest
+   `~/career` on Mac/Linux or `C:\Users\<name>\Documents\career` on Windows),
+   then write `~/.career-skills.toml` with their chosen path.
+2. Create `{vault}/one-on-ones/` if it does not exist.
 
 ## Generating talking points
 
