@@ -12,7 +12,6 @@ including Claude Code, GitHub Copilot, Cursor, Gemini CLI, and others.
 |---|---|
 | [`career-review-cycle`](./skills/career-review-cycle/SKILL.md) | Set goals, log work, generate brag docs, prepare for reviews and 1-on-1s, build a promotion case |
 
-
 ## Installation
 
 ### Any Agent Skills compatible agent
@@ -46,7 +45,7 @@ where you want to grow or increase your visibility — using OKR thinking as a
 guide: a clear objective and measurable outcomes that tell you when you've
 got there.
 
-> "Help me set my career-review-cycle goals for this year. My team is focused on
+> "Help me set my performance goals for this year. My team is focused on
 > reliability and I want to grow into more of a technical lead role."
 
 Goals are saved to your vault and referenced throughout the rest of the cycle.
@@ -90,14 +89,14 @@ The agent flags gaps where coverage is thin and asks for any outcomes you
 didn't capture at the time. The result is a document you could share with
 your manager or use verbatim in a self-assessment.
 
-### 5. Prepare for career-review-cycle reviews
+### 5. Prepare for performance reviews
 
 When review season arrives, your brag doc does most of the work. The agent
 uses it — alongside your goals — to write a self-assessment in the language
 your company uses, with accomplishments framed using STAR (Situation, Action,
 Result) so every claim is backed by evidence.
 
-> "My career-review-cycle review is next week, help me write my self-assessment."
+> "My performance review is next week, help me write my self-assessment."
 
 If your company has a specific review form or rubric, share it and the agent
 will adapt the output to match.
