@@ -1,5 +1,5 @@
 ---
-name: performance
+name: career-review-cycle
 description: >
   Manage your career performance across the full year cycle: set and track
   yearly goals, log daily work, generate brag documents, prepare for
