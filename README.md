@@ -2,12 +2,9 @@
 
 [![skills.sh](https://skills.sh/b/p-m-p/career-skills)](https://skills.sh/p-m-p/career-skills)
 
-A set of [Agent Skills](https://agentskills.io) for managing your performance
-goals, tracking daily work, and building career documents like brag docs,
-self-assessments, and promotion cases.
-
-Works with any agent that supports the Agent Skills standard, including
-Claude Code, GitHub Copilot, Cursor, Gemini CLI, and others.
+A collection of [Agent Skills](https://agentskills.io) to help you manage and
+grow your career. Works with any agent that supports the Agent Skills standard,
+including Claude Code, GitHub Copilot, Cursor, Gemini CLI, and others.
 
 ## Skills
 
@@ -34,9 +31,11 @@ Add this repository as a plugin marketplace, then install:
 
 ## How it works
 
-The skills follow a simple cycle: set goals at the start of the year, log work
-as you go, then synthesise that log into career documents when you need them.
-The more consistently you log, the less effort everything else takes.
+The `performance` skill covers the full year cycle: set goals at the start of
+the year, log work as you go, then synthesise that log into career documents
+when you need them. Just talk to your agent naturally — it activates the skill
+and routes to the right capability based on what you ask for. The more
+consistently you log, the less effort everything else takes.
 
 ### 1. Set your goals
 
