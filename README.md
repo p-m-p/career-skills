@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.svg" alt="Career Skills" width="220"/><br/><br/>
+  <img src="logo.svg" alt="Career Skills" width="300"/><br/><br/>
   <a href="https://skills.sh/p-m-p/career-skills"><img src="https://skills.sh/b/p-m-p/career-skills" alt="skills.sh"/></a>
 </div>
 
