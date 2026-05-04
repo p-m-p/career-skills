@@ -22,10 +22,10 @@ Output is stored at `{vault}/promo/YYYY.md`.
 
 ## Configuration
 
-1. Read vault location from `~/.career-skills.toml`. If the file does not
+1. Read vault location from `.career-skills.toml` in the user's home directory. If the file does not
    exist, ask the user where they want to store their career files (suggest
    `~/career` on Mac/Linux or `C:\Users\<name>\Documents\career` on Windows),
-   then write `~/.career-skills.toml` with their chosen path.
+   then write `.career-skills.toml` in the user's home directory with their chosen path.
 2. Create `{vault}/promo/` if it does not exist.
 
 ## Building the case

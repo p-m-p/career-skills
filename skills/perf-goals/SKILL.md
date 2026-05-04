@@ -26,16 +26,16 @@ the slug is the kebab-case of the goal title. An index file at
 
 ## Configuration
 
-1. Read vault location from `~/.career-skills.toml`. If the file does not
+1. Read vault location from `.career-skills.toml` in the user's home directory. If the file does not
    exist, ask the user where they want to store their career files (suggest
    `~/career` on Mac/Linux or `C:\Users\<name>\Documents\career` on Windows),
-   then write `~/.career-skills.toml` with their chosen path.
+   then write `.career-skills.toml` in the user's home directory with their chosen path.
 2. Create `{vault}/goals/` if it does not exist.
 
 ## Creating goals
 
-1. **Read config** — load `~/.career-skills.toml` to get the vault path.
-   If missing, use `career-init` first.
+1. **Read config** — load `.career-skills.toml` from the user's home directory.
+   If missing, follow the Configuration steps above before proceeding.
 
 2. **Gather context** — ask for anything not already provided:
    - Current role and level

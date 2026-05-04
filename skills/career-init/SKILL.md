@@ -16,7 +16,7 @@ by all career skills. It only needs to be run once.
 
 ## Setup steps
 
-1. **Check for existing config** — if `~/.career-skills.toml` already exists,
+1. **Check for existing config** — if `.career-skills.toml` in the user's home directory already exists,
    read it and confirm the current settings with the user. Ask if they want to
    change anything. If nothing needs changing, stop here.
 
@@ -25,7 +25,7 @@ by all career skills. It only needs to be run once.
    `C:\Users\<name>\Documents\career` on Windows). Let the user provide any
    absolute path they prefer.
 
-3. **Write `~/.career-skills.toml`**:
+3. **Write `.career-skills.toml` in the user's home directory**:
 
 ```toml
 vault = "/path/chosen/by/user"

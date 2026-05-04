@@ -18,10 +18,10 @@ goal. It is not a diary — it should read like evidence. Output is stored at
 
 ## Configuration
 
-1. Read vault location from `~/.career-skills.toml`. If the file does not
+1. Read vault location from `.career-skills.toml` in the user's home directory. If the file does not
    exist, ask the user where they want to store their career files (suggest
    `~/career` on Mac/Linux or `C:\Users\<name>\Documents\career` on Windows),
-   then write `~/.career-skills.toml` with their chosen path.
+   then write `.career-skills.toml` in the user's home directory with their chosen path.
 2. Create `{vault}/brag/` if it does not exist.
 
 ## Generating a brag doc
