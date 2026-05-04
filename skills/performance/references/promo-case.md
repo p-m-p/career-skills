@@ -1,17 +1,4 @@
----
-name: promo-case
-description: >
-  Build a promotion or leveling case by mapping accomplishments to a role
-  rubric or leveling criteria. Use this skill when the user wants to make a
-  case for promotion, needs to demonstrate they are operating at the next
-  level, wants to identify gaps before a promotion cycle, or is preparing
-  materials to share with a manager or review committee. Also triggers on
-  "promotion case", "promo doc", "leveling up", "next level", "am I ready
-  for promotion", or "evidence for promotion".
-compatibility: Requires read access to the career vault. Output is Markdown, compatible with Obsidian and any text editor.
----
-
-## Overview
+# Promo Case
 
 A promotion case maps your strongest accomplishments to the criteria your
 company uses to evaluate readiness for the next level. It is evidence-based,
@@ -20,13 +7,7 @@ at the target level, not just that you want to.
 
 Output is stored at `{vault}/promo/YYYY.md`.
 
-## Configuration
-
-1. Read vault location from `.career-skills.toml` in the user's home directory. If the file does not
-   exist, ask the user where they want to store their career files (suggest
-   `~/career` on Mac/Linux or `C:\Users\<name>\Documents\career` on Windows),
-   then write `.career-skills.toml` in the user's home directory with their chosen path.
-2. Create `{vault}/promo/` if it does not exist.
+Create `{vault}/promo/` if it does not exist.
 
 ## Building the case
 
@@ -106,8 +87,7 @@ makes the case in plain language without referencing the rubric directly.]
 - Gaps are not disqualifying — every promotion case has them. The value is
   in making gaps visible so they can be addressed before the cycle closes.
 - The "Suggested narrative" section is for the manager or sponsor who will
-  advocate for the user in the room. Make it short, clear, and free of
-  jargon.
+  advocate for the user in the room. Make it short, clear, and free of jargon.
 - If the user does not have a rubric, the case is still useful — frame it
   around behaviours and impact at the next level based on what the user
   describes as the expectations.

@@ -1,30 +1,11 @@
----
-name: one-on-one-prep
-description: >
-  Generate talking points for an upcoming manager 1-on-1, drawing on recent
-  work logs and goal progress. Use this skill when the user has a 1-on-1 coming
-  up and wants to prepare, wants to know what to raise with their manager, or
-  wants to surface blockers and wins from recent work. Also triggers on
-  "1-on-1 prep", "one on one", "meeting with my manager", "what to discuss
-  with my manager", or "weekly sync prep".
-compatibility: Requires read access to the career vault. Output is Markdown, compatible with Obsidian and any text editor.
----
-
-## Overview
+# 1-on-1 Prep
 
 A well-prepared 1-on-1 agenda keeps your manager informed, surfaces blockers
-early, and creates a paper trail of your progress. This skill reads recent work
-logs and goal status to generate a focused agenda you can bring to the meeting.
+early, and creates a paper trail of your progress.
 
 Output is stored at `{vault}/one-on-ones/YYYY-MM-DD.md`.
 
-## Configuration
-
-1. Read vault location from `.career-skills.toml` in the user's home directory. If the file does not
-   exist, ask the user where they want to store their career files (suggest
-   `~/career` on Mac/Linux or `C:\Users\<name>\Documents\career` on Windows),
-   then write `.career-skills.toml` in the user's home directory with their chosen path.
-2. Create `{vault}/one-on-ones/` if it does not exist.
+Create `{vault}/one-on-ones/` if it does not exist.
 
 ## Generating talking points
 

@@ -14,12 +14,7 @@ Claude Code, GitHub Copilot, Cursor, Gemini CLI, and others.
 
 | Skill | What it does |
 |---|---|
-| [`perf-goals`](./perf-goals/SKILL.md) | Create and manage yearly performance goals |
-| [`work-log`](./work-log/SKILL.md) | Capture daily work notes linked to goals |
-| [`brag-doc`](./brag-doc/SKILL.md) | Generate an accomplishment summary from work logs |
-| [`review-prep`](./review-prep/SKILL.md) | Write a self-assessment for a performance review |
-| [`one-on-one-prep`](./one-on-one-prep/SKILL.md) | Generate talking points for a manager 1-on-1 |
-| [`promo-case`](./promo-case/SKILL.md) | Build a promotion case mapped to a leveling rubric |
+| [`performance`](./skills/performance/SKILL.md) | Set goals, log work, generate brag docs, prepare for reviews and 1-on-1s, build a promotion case |
 
 ## Installation
 
