@@ -29,13 +29,13 @@ Add this repository as a plugin marketplace, then install:
 /plugin install career-skills@p-m-p
 ```
 
-## How it works
+## `performance`
 
-The `performance` skill covers the full year cycle: set goals at the start of
-the year, log work as you go, then synthesise that log into career documents
-when you need them. Just talk to your agent naturally — it activates the skill
-and routes to the right capability based on what you ask for. The more
-consistently you log, the less effort everything else takes.
+Covers the full year cycle: set goals at the start of the year, log work as
+you go, then synthesise that log into career documents when you need them. Just
+talk to your agent naturally — it activates the skill and routes to the right
+capability based on what you ask for. The more consistently you log, the less
+effort everything else takes.
 
 ### 1. Set your goals
 
@@ -48,7 +48,7 @@ got there.
 > "Help me set my performance goals for this year. My team is focused on
 > reliability and I want to grow into more of a technical lead role."
 
-Goals are saved to your vault and used as reference by every other skill.
+Goals are saved to your vault and referenced throughout the rest of the cycle.
 
 ### 2. Log as you go
 
