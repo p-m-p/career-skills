@@ -1,6 +1,7 @@
-# Career Skills
-
-[![skills.sh](https://skills.sh/b/p-m-p/career-skills)](https://skills.sh/p-m-p/career-skills)
+<div align="center">
+  <img src="logo.svg" alt="Career Skills" width="220"/><br/><br/>
+  <a href="https://skills.sh/p-m-p/career-skills"><img src="https://skills.sh/b/p-m-p/career-skills" alt="skills.sh"/></a>
+</div>
 
 A set of [Agent Skills](https://agentskills.io) for managing your performance
 goals, tracking daily work, and building career documents like brag docs,
